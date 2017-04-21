@@ -27,7 +27,7 @@
       "DFA"
     ],
     "plugin-file": "helper.py",
-    "plugin-types": "types.js",
+    "types-file": "types.js",
     "description": "This interpreter provides a simple deterministic finite automata (DFA) implementation.",
     "loader": "python"
   }
