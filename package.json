@@ -1,0 +1,34 @@
+{
+  "name": "dfa",
+  "version": "1.0.0",
+  "description": "A DFA interpreter for Sinap.",
+  "main": "dfa-interpreter.ts",
+  "scripts": {
+    "test": "python test_interpreter.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2graphic/sinap-core.git"
+  },
+  "keywords": [
+    "sinap",
+    "dfa",
+    "flap"
+  ],
+  "author": "2graphic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/2graphic/sinap-core/issues"
+  },
+  "homepage": "https://github.com/2graphic/sinap-core#readme",
+  "sinap": {
+    "kind": [
+      "Formal Languages",
+      "DFA"
+    ],
+    "plugin-file": "helper.py",
+    "plugin-types": "types.js",
+    "description": "This interpreter provides a simple deterministic finite automata (DFA) implementation.",
+    "loader": "python"
+  }
+}
