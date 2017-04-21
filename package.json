@@ -1,7 +1,7 @@
 {
   "name": "dfa",
   "version": "1.0.0",
-  "description": "A DFA interpreter for Sinap.",
+  "description": "This interpreter provides a simple deterministic finite automata (DFA) implementation in python. This makes it much slower because the overhead of starting python is pretty high. This would be less of a big deal for more complicated plugins.",
   "main": "dfa-interpreter.ts",
   "scripts": {
     "test": "python test_interpreter.py"
@@ -28,7 +28,6 @@
     ],
     "plugin-file": "helper.py",
     "types-file": "types.js",
-    "description": "This interpreter provides a simple deterministic finite automata (DFA) implementation in python. This makes it much slower because the overhead of starting python is pretty high. This would be less of a big deal for more complicated plugins.",
     "loader": "python"
   }
 }
